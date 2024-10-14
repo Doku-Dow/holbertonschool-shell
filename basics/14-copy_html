@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l --time-style='''+''' /tmp/*.html
+for f in *.html; do [ ! -e "../$f" ] || [ "$f" -nt "../$f" ] && cp "$f" "../"
