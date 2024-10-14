@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u /tmp/test_html/*.html
+ls -l --time-style='''+''' /tmp/*.html
